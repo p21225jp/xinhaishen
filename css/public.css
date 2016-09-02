@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Jackson Yan 
+ * @date    2016-04-13 15:29:26
+ * public css
+ */
+body {
+  font-family:Helvetica,"Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+/* index */
+.navbar {
+	background: #FFF;
+	margin-bottom: 0;
+	border-bottom: 1px solid #f2f2f2;
+	z-index: 100;
+}
+@media (min-width: 768px){
+	.navbar-nav {
+        margin-left: 140px;
+    }
+}
+
+.navbar-default .navbar-brand {
+	color: #000;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #000;
+	
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #AF0100;
+	
+}
+.toggle-banner {
+	margin-top: 50px;
+}
+.container-fluid {
+	padding: 0;
+}
+.carousel-indicators .active {
+	background-color: #0B8BCF;
+	border: 0;
+	margin:0 5px;
+}
+.carousel-indicators li {
+	width: 12px;
+	height: 12px;
+	margin:0 5px;
+	background-color: #fff;
+	border: 0;
+}
+.jumbotron {
+  text-align: center;
+}
+.jumbotron .title {
+  font-weight: bold;
+  font-size: 30px;
+  color: #d02a2a;
+}
+.jumbotron > .des {
+  font-size: 16px;
+  color: #777777;
+}
+.jumbotron a {
+  color: #d02a2a;
+}
+.jumbotron a:hover {
+  color: #a22222;
+}
+.jumbotron .col-md-4 {
+    margin-top: 40px;
+}
+.jumbotron .col-md-4 p {
+    font-size: 18px;
+    color: #000;
+    background: #fff;
+    width: 290px;
+    margin: 0 auto;
+
+}
+.about_us {
+    background: #fff;
+}
+.about_us .short_desc {
+   
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.footer {
+    background: #fff;
+}
+.footer .lxfs {
+	margin:110px auto 30px; 
+	width:328px; 
+	height:56px; 
+	line-height:56px; 
+	border:1px 
+	solid #af0100; 
+	color:#252525; 
+	position:relative;
+}
+.footer .lxfs p{color:#5e5e5e;}
+.footer .lxfs span {
+	position:absolute; 
+	font-size:36px; 
+	color:#af0100; 
+	width:252px; 
+	font-family:arial; 
+	background:#fff; 
+	top:-20px; 
+	left:50%; 
+	margin-left:-126px; 
+	line-height:36px;
+}
+.footer .company_name {
+	font-size: 25px;
+	font-weight: bold;
+}
+.footer .company_address {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.footer .f-nav{overflow:hidden; display:inline-block; *display:inline; *zoom:1; margin-bottom:18px;} 
+.footer .f-nav a{float:left; color:#464646; padding:0 8px; border-right:1px solid #747474; line-height:12px; position:relative; right:-1px;}
+.footer .copy_right {
+	font-size: 12px;
+}
